@@ -8,7 +8,15 @@ namespace ObjectLifetime
         {
             Car myCar = new Car();
 
+            myCar.Make = "Holden";
+            myCar.Model = "Commodore";
+            myCar.Year = 2008;
+            myCar.Colour = "Blue";
 
+            Car mySecondCar = new Car();
+
+            mySecondCar.Make = "Ford";
+            mySecondCar.Model = "";
 
             Console.ReadLine();
         }
